@@ -6,7 +6,7 @@ import streamlit as st
 st.set_page_config(layout="wide")
 
 image_path_list = glob('./image/*.jpg') + glob('./image/*.png') + glob('./image/*.enc')
-st.markdown("<h1 style='text-align: center; color: yellow;'>!!!DURGAPUJO 2023 MOMENTS!!!</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: maroon;'>!!!DURGAPUJO 2023 MOMENTS!!!</h1>", unsafe_allow_html=True)
 
 setting_col, viewer_col, _ = st.columns([2,4,2])
 with setting_col:
