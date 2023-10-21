@@ -1,1 +1,0 @@
-Downloaded from [Pixabay](https://pixabay.com/ja/)

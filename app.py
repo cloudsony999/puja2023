@@ -1,5 +1,5 @@
 from glob import glob
-from streamlit_image_viewer import image_viewer
+from streamlit_image_viewer import image_viewer as i
 import streamlit_toggle as tog
 import streamlit as st
 
@@ -24,7 +24,7 @@ with setting_col:
     
 with viewer_col:
     st.markdown("## :camera: Viewer")
-    image_viewer(
+    i(
         image_path_list,
         ncol=n_col,
         nrow=n_raw,
